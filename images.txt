@@ -1,6 +1,11 @@
 nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+wenyixu101/webapp
+wenyixu101/server
+wenyixu101/notebook
+wenyixu101/spark
+wenyixu101/history-server
+wenyixu101/airflow
+postgres:13
+
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
